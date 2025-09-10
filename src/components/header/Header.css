@@ -15,3 +15,7 @@
 .header-logo {
     margin-right: 65px;
 }
+
+.nav > *:not(:last-child) {
+    margin-right: 55px;
+}

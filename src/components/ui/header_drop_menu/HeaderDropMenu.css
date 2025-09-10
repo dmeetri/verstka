@@ -7,3 +7,7 @@
 .header-drop-menu button:hover {
     color: var(--color-white);
 }
+
+.header-drop-icon {
+    margin-left: 10px;
+}

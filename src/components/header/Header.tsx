@@ -1,5 +1,7 @@
 import "./Header.css"
 
+import { HeaderDropMenu } from "../ui/header_drop_menu/HeaderDropMenu";
+
 export const Header = () => {
     return (
         <header className="header">
@@ -9,12 +11,13 @@ export const Header = () => {
                         <img 
                             className="header-logo"
                             width={126}
-                            src="/images/text_logo.png" 
+                            src="/images/text_logo.svg" 
                             alt="Logo"
                         />
 
-                        <nav>
-
+                        <nav className="nav">
+                            <HeaderDropMenu text={"Menu"} />
+                            <HeaderDropMenu text={"Socials"} />
                         </nav>
                     </div>
                 </div>
