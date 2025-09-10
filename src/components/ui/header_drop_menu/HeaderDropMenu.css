@@ -1,0 +1,9 @@
+.header-drop-menu {
+    position: relative;
+}
+.header-drop-menu button {
+    color: var(--color-white-70);
+}
+.header-drop-menu button:hover {
+    color: var(--color-white);
+}
