@@ -14,7 +14,7 @@ export const HeaderDropMenu: React.FC<HeaderDropMenu> = ({ text }) => {
 
     return(
         <div className="header-drop-menu flex">
-            <button onClick={toggleDropDown}>
+            <button className="text-small" onClick={toggleDropDown}>
                 {text}
 
                 <img 

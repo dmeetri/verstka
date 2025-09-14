@@ -7,7 +7,8 @@
 }
 
 .header-navigation {
-    padding: 13px 20px;
+    padding: 0 30px;
+    height: 60px;
     border: 1px solid var(--color-green-10);
     border-radius: 15px;
     align-items: center;
@@ -18,4 +19,28 @@
 
 .nav > *:not(:last-child) {
     margin-right: 55px;
+}
+.nav a {
+    color: var(--color-white-70);
+}
+.nav a:hover {
+    color: var(--color-white);
+}
+
+.dApp {
+    border: 1px solid var(--color-green);
+    border-radius: 15px;
+    color: var(--color-green);
+    padding: 0 70px;
+    transition: all .2s ease-in-out;
+}
+.dApp:hover {
+    color: var(--color-main-dark);
+    background-color: var(--color-green);
+    box-shadow: 0px 4px 25px 0px var(--color-green-50);
+}
+.dApp:active {
+    border: none;
+    box-shadow: none;
+    box-shadow: 0px 5px 5px -5px var(--color-main-dark) inset;
 }

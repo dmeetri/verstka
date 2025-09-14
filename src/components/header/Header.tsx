@@ -18,8 +18,12 @@ export const Header = () => {
                         <nav className="nav">
                             <HeaderDropMenu text={"Menu"} />
                             <HeaderDropMenu text={"Socials"} />
+                            <a className="text-small" href="#">Docs</a>
+                            <a className="text-small" href="#">Buy</a>
                         </nav>
                     </div>
+
+                    <button className="dApp text-large">dApp</button>
                 </div>
             </div>
         </header>
