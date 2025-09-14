@@ -20,6 +20,10 @@ body {
     background-color: var(--color-main-dark);
 }
 
+.flex {
+    display: flex;
+}
+
 .container {
     max-width: 1720px;
     min-width: 289px;
@@ -34,10 +38,6 @@ body {
     .container {
         margin: 0 15px;
     }
-}
-
-.flex {
-    display: flex;
 }
 
 /* RESET */
