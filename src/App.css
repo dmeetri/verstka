@@ -16,7 +16,6 @@
 /* MAIN */
 
 body {
-    /* font-family: "PT Sans", sans-serif;*/
     font-style: normal;
     background-color: var(--color-main-dark);
 }
@@ -62,7 +61,13 @@ select {
     background: none;
     border: none;
     outline: none;
+    appearance: none;
 }
+
+option {
+    background: none;
+}
+
 input,
 button,
 [type="button"],

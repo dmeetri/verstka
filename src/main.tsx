@@ -9,7 +9,9 @@ createRoot(document.getElementById('root')!).render(
         <Header />
 
         <main>
-
+            <div className="conatainer">
+                
+            </div>
         </main>
     </StrictMode>
 )
