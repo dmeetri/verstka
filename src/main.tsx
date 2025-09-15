@@ -1,10 +1,13 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
+
 import "./App.css"
 import "./fonts.css"
 import "./main.css"
 
 import { Header } from "./components/header/Header"
+import { Footer } from "./components/footer/Footer"
+import { TransButton } from "./components/ui/transparent_botton/TransButton"
 
 createRoot(document.getElementById('root')!).render(
     <StrictMode>
@@ -25,17 +28,18 @@ createRoot(document.getElementById('root')!).render(
                                 </h1>
                                 <h1>
                                     <span className="main-highlight">AI/ML</span> computing
-                                </h1>
+                                </h1>xw
                             </div>
 
-                            <div className="main-subtitle">
-
-                            </div>
+                            <p className="main-subtitle text-reggular">
+                                As well as key features of the project's structure,<br />
+                                they were declared to violate universal norms of morality.
+                            </p>
                         </div>
 
                         <div className="buttons flex">
-                            <button>View Mode</button>
-                            <button>Buy GPU</button>
+                            <TransButton text={"View Mode"} />
+                            <TransButton text={"Buy $GPU"} />
                         </div>
                     </div>
 
@@ -51,5 +55,7 @@ createRoot(document.getElementById('root')!).render(
                 </div>
             </div>
         </main>
+        
+        <Footer />
     </StrictMode>
 )
