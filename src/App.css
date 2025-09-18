@@ -19,6 +19,9 @@ body {
     font-style: normal;
     background-color: var(--color-main-dark);
 }
+img {
+    pointer-events: none;
+}
 
 .flex {
     display: flex;

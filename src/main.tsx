@@ -8,6 +8,7 @@ import "./main.css"
 import { Header } from "./components/header/Header"
 import { Footer } from "./components/footer/Footer"
 import { TransButton } from "./components/ui/transparent_botton/TransButton"
+import { ChooseUs } from './sections/chooseUs/ChooseUs'
 
 createRoot(document.getElementById('root')!).render(
     <StrictMode>
@@ -28,7 +29,7 @@ createRoot(document.getElementById('root')!).render(
                                 </h1>
                                 <h1>
                                     <span className="main-highlight">AI/ML</span> computing
-                                </h1>xw
+                                </h1>
                             </div>
 
                             <p className="main-subtitle text-reggular">
@@ -55,6 +56,8 @@ createRoot(document.getElementById('root')!).render(
                 </div>
             </div>
         </main>
+
+        <ChooseUs />
         
         <Footer />
     </StrictMode>

@@ -1,0 +1,13 @@
+.choose-card-green {
+    background-color: var(--color-green);
+    color: var(--color-main-dark);
+}
+.shoose-card-dark {
+    background-color: var(--color-main-dark);
+    color: var(--color-white);
+    border: 1px solid var(--color-white);
+}
+
+.shoose_us_card {
+    border-radius: 15px;
+}
