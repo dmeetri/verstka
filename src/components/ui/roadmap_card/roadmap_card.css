@@ -1,0 +1,41 @@
+.road-map-color-white {
+  background-color: var(--color-white);
+}
+
+.road-map-color-green {
+  background-color: var(--color-green);
+}
+
+.road-map-color-none {
+  border: 1px solid var(--color-white);
+}
+
+.roadmap-card {
+  max-width: 335px;
+  min-width: 220px;
+}
+
+.roadmap-number {
+  position: relative;
+  width: 125px;
+  height: 125px;
+  border-radius: 100%;
+}
+.roadmap-number h2 {
+  position: absolute;
+  top: 33px;
+  left: 34px;
+  color: black;
+  font-size: 50px;
+}
+
+.roadmap-text {
+  margin-top: 40px;
+}
+.roadmap-block-text {
+  gap: 12px;
+}
+.roadmap-block-text p {
+  color: var(--color-white);
+  margin-bottom: 20px;
+}

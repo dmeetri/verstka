@@ -1,0 +1,12 @@
+.roadmap {
+  margin-top: 200px;
+}
+.roadmap h2 {
+  color: var(--color-white);
+}
+
+.road-map-crads {
+  margin-top: 80px;
+  justify-content: space-between;
+  gap: 25px;
+}
